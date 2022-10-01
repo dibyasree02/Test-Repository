@@ -1,0 +1,69 @@
+.index{
+    background-image:url('flag-1192633__340.jpg');
+    background-repeat: no-repeat;
+    background-size: 5150px 2600px;
+}
+.wish{
+    font-size: 175px;
+    text-align: center;
+    color: rgb(247, 247, 4);
+}
+.appeal{
+    font-size: 120px;
+    text-align: center;
+    color: aliceblue;
+}
+.participate{
+    background-color: rgb(247, 247, 4);
+    border: none;
+    color: rgb(14, 17, 219);
+    margin-left: 32%;
+    padding: 60px 200px;
+    text-align: center; 
+    text-decoration: none;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    border-radius: 87px;
+    margin-top: 16em;
+    /* margin-left: 500 px; */
+}
+input[type="submit"]
+{
+    display:flex;
+    justify-content: center;
+}
+.formspage{
+    background-image: url('form.jpg');
+    background-repeat: no-repeat;
+    background-size: 1750px 828px;
+}
+.formhead{
+    text-align: center;
+    font-size: 50px;
+}
+.subject{
+    font-size: 20px;
+}
+.essay{
+    font-size: 14em;
+    color: rgb(224, 15, 15);
+    text-align: center;
+}
+.ty{
+    background-image: url('form.jpg');
+    background-repeat: no-repeat;
+    background-size: 5114px 2360px;
+}
+.formelements{
+    font-size: x-large;
+    color: rgb(2, 102, 168);
+}
+.formhead{
+    color: rgb(247, 93, 4);
+}
+.table{
+    margin-top: 500px;
+    font-size: 5em;
+}
