@@ -21,6 +21,8 @@ function App() {
         alert(e.message);
       })
   } , [])
+  // Adding a new varaible 
+  var a = new varaible(null);
   
   return (
     <div className="App">
