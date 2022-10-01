@@ -25,7 +25,9 @@ function App() {
   return (
     <div className="App">
       <Navbar id = "color"></Navbar>
+      id = 1;
       {veggies && <VegList veggies = {veggies} title = "Vegitables for you"></VegList>}
+      {veggies && <VegList veggies = {veggies.id==id} title = "Vegitables for you"></VegList>}
     </div>
     
   );
