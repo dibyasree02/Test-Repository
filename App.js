@@ -24,10 +24,10 @@ function App() {
   
   return (
     <div className="App">
-      <Navbar id = "color"></Navbar>
+      <Navbar id = "color"></Navbar> //nav-colour
       id = 1;
       {veggies && <VegList veggies = {veggies} title = "Vegitables for you"></VegList>}
-      {veggies && <VegList veggies = {veggies.id==id} title = "Vegitables for you"></VegList>}
+      {veggies && <VegList veggies = {veggies.id==id} title = "Vegitables for you"></VegList>}  //Something messy
     </div>
     
   );
