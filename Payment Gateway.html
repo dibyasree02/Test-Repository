@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Payment Gateway</title>
+
+<body>
+
+    <form>
+        <u>
+            <h1 style="text-align:center;">Payment Form</h1>
+        </u>
+        <h2>User Details</h2>
+        First Name: <input type="text" name="Fname" required></input>
+        <p>
+            Last Name: <input type="text" name="lname"></input></p>
+        <p>
+            Gender: <input type="radio" name="Gneder">Male</input>
+            <input type="radio" name="Gneder">Female</input>
+            <input type="radio" name="Gneder">Other</input>
+        </p>
+        <p>
+            Address: <textarea name="Address" cols"30" width "8"></textarea></p>
+        <p>
+            Email:<input type="email" name="Email"></input></p>
+        <p>
+            Pincode: <input type="number" name="Pincode"></input></p>
+        <br>
+        <h2>Payment Information</h2>
+
+        Card Type:
+        <select name="Card type">
+            <option value="">---Select the card type---</option>
+            <option Value="Rupay">Rupay</option>
+            <option Value="Visa">Visa</option>
+            <option Value="Mastercard">Mastercard</option>
+
+
+
+        </select>
+        <p>
+
+            Card Number: <input type="number" name="card number"></input></p>
+        <p>
+            Expiry Date(DD/MM): <input type="number" name="expiry"></input> </p>
+        <p>
+            CVV: <input type="password" name="cvv"></input>
+        </p>
+
+
+        <input type="submit" value="Pay Now"></input>
+    </form>
+
+
+
+</body>
+</head>
+
+</html>
