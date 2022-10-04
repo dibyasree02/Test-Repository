@@ -26,6 +26,7 @@ function App() {
     <div className="App">
       <Navbar id = "color"></Navbar>
       id = 1;
+      // This  code is used for  rendering the veggitables in the Homepage.
       {veggies && <VegList veggies = {veggies} title = "Vegitables for you"></VegList>}
       {veggies && <VegList veggies = {veggies.id==id} title = "Vegitables for you"></VegList>}
     </div>
