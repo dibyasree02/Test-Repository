@@ -28,6 +28,8 @@ function App() {
     <div className="App">
       <Navbar id = "color"></Navbar> //nav-colour
       id = 1;
+      // This  code is used for  rendering the veggitables in the Homepage. 
+      // Id will represent the vegitable with the ID = 1 and that will be rendered on the page. 
       {veggies && <VegList veggies = {veggies} title = "Vegitables for you"></VegList>}
       {veggies && <VegList veggies = {veggies.id==id} title = "Vegitables for you"></VegList>}  //Something messy
     </div>
