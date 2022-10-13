@@ -1,9 +1,17 @@
 import React from 'react'
-import Navbar from './Navbar'
+// import Navbar from './Nav'
+import '../../styles/Homepage/style.css'
 function HomePage() {
   return (
     <div>
-        <Navbar></Navbar> 
+        <div class = "pr">
+          <div>Logo</div>
+          <div>
+            <li>Home</li>  
+            <li>Contact</li>  
+            <li>Profile</li>
+          </div>  
+        </div> 
     </div>
   )
 }

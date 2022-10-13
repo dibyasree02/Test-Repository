@@ -1,0 +1,12 @@
+.pr{
+    color: white;
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    list-style: none;
+}
