@@ -27,5 +27,62 @@
             <!-- <a href="ThankYou.html"> -->
             <input type="submit"/>
         </form>
+        <form name="RegForm" onSubmit="return validate()" method="post"></form>
+        <p>
+          Name<span id="star">*</span>
+          <input type="text" size="65" name="Name" />
+        </p>
+
+        <br />
+
+        <p>Address: <input type="text" size="65" name="Address" /></p>
+
+        <br />
+        <p>
+          Zip Code:<span id="star">*</span>
+          <input type="text" size="65" name="ZipCode" />
+        </p>
+        <p>
+          Country<span id="star">*</span>
+          <select type="text" value="" name="country">
+            <option>India</option>
+            <option>Sri Lanka</option>
+            <option>Nepal</option>
+            <option>Pakistan</option>
+          </select>
+        </p>
+        <br />
+        <p>
+          Gender<span id="star">*</span></p>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <p>
+          Phone Number: <span id="star">*</span
+          ><input type="text" size="65" name="Telephone" />
+        </p>
+
+        <br />
+        <p>
+          E-mail Address: <span id="star">*</span
+          ><input type="text" size="65" name="EMail" />
+        </p>
+
+        <br />
+
+        <p>password (6-8 characters) <span id="star">*</span> <input type="text" size="65" name="Password" /></p>
+
+        <br />
+
+        <p>Pan Card number: <input type="text" size="65" name="PANCard" /></p>
+
+        <br />
+
+        <p>
+          <input type="submit" value="Submit" name="Submit"/>
+          <input type="reset" value="Reset" name="Reset" />
+        </p>
+      </form>
     </body>
 </html>
