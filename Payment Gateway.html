@@ -7,28 +7,31 @@
 <body>
 
     <form>
-        <u>
-            <h1 style="text-align:center;">Payment Form</h1>
-        </u>
-        <h2>User Details</h2>
-        First Name: <input type="text" name="Fname" required></input>
+        <center>
+            <u style="color:chocolate"><h1 style="text-align:center; color:chocolate">Payment Form</h1></u>
+        <fieldset style="width: 370px;color: crimson;background-color:#e4efd0;border: solid;
+        border-color: silver;border-radius: 20px;
+        border-style: groove;">
+            <h2 style="font-family: system-ui;font-size: 30px;">User Details</h2>
+        <input type="text" name="Fname" required  placeholder="First Name" onchange="clearText()" style="padding-right: 160px;"></input>
         <p>
-            Last Name: <input type="text" name="lname"></input></p>
-        <p>
-            Gender: <input type="radio" name="Gneder">Male</input>
-            <input type="radio" name="Gneder">Female</input>
-            <input type="radio" name="Gneder">Other</input>
+             <input type="text" name="lname"  placeholder="Last Name" onchange="clearText()" style="padding-right: 160px;"></input></p>
+        <p style="padding-right: 90px;">
+            Gender: <input type="radio" name="Gender">Male</input>
+            <input type="radio" name="Gwnder">Female</input>
+            <input type="radio" name="Gender">Other</input>
         </p>
-        <p>
+        <p style="padding-right: 100px">
             Address: <textarea name="Address" cols"30" width "8"></textarea></p>
-        <p>
+        <p style="padding-right: 115px;">
             Email:<input type="email" name="Email"></input></p>
-        <p>
+        <p style="padding-right: 100px">
             Pincode: <input type="number" name="Pincode"></input></p>
         <br>
-        <h2>Payment Information</h2>
+        
+        <h2 style="font-family: system-ui;font-size: 30px;">Payment Information</h2>
 
-        Card Type:
+        <p style="padding-right: 100px;">Card Type:
         <select name="Card type">
             <option value="">---Select the card type---</option>
             <option Value="Rupay">Rupay</option>
@@ -38,17 +41,20 @@
 
 
         </select>
-        <p>
+        </p>
 
-            Card Number: <input type="number" name="card number"></input></p>
-        <p>
-            Expiry Date(DD/MM): <input type="number" name="expiry"></input> </p>
-        <p>
+           <p style="padding-right: 80px"> Card Number:
+            <input type="number" name="card number" ></input></p>
+            
+        <p style="padding-right: 90px">    Expiry Date:<input type="number" name="expiry" placeholder="MM / YY" onchange="clearText()"></input> </p>
+        <p style="padding-right: 125px">
             CVV: <input type="password" name="cvv"></input>
         </p>
 
 
         <input type="submit" value="Pay Now"></input>
+    </fieldset> 
+        </center>
     </form>
 
 
