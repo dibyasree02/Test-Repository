@@ -21,13 +21,11 @@
     padding: 60px 200px;
     text-align: center; 
     text-decoration: none;
-    /* display: inline-block; */
     display: flex;
     justify-content: center;
     font-size: 80px;
     border-radius: 87px;
     margin-top: 16em;
-    /* margin-left: 500 px; */
 }
 input[type="submit"]
 {
